@@ -1,0 +1,29 @@
+{
+	"name": "stylus",
+	"display": "Stylus",
+	"version": "1.0.0",
+	"description": "A koala extension that adds support for compiling stylus file.",
+	"keywords": [ "koala", "stylus", "compiler"],
+	"koalaVersion": ">=2.0.0",
+	"main": "StylusCompiler.js",
+	"fileTypes": [{
+		"extension": "styl",
+		"output": "css",
+		"icon": "stylus.jpg",
+		"category": "template"
+	}],
+	"dependencies": {
+		"stylus": ">=0.53.0"
+	},
+	"engines": {
+		"koala": ">=2.0.0"
+	},
+	"author": {
+		"name": "Lukas Aúmair",
+		"web": "https://oton.media"
+	},
+	"options": [ ],
+	"advanced": [ ],
+	"projectSettings": "",
+	"libraries": ["Stylus@0.53.0"]
+}
